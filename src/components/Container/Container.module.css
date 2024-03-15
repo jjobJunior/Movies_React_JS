@@ -1,8 +1,9 @@
-.container{
-    width: 100%;
-    height: 450px;/*100%*/
-    background-color: #191919;
-    color: #fff;
-    padding-block: 1rem;
-    text-align: center;
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #191919;
+  color: #fff;
+  padding-block: 1rem;
+  text-align: center;
+  /*aula 05*/
 }
