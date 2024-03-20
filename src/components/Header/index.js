@@ -7,8 +7,9 @@ function Header() {
         <span>JobFlix</span>
       </Link>
       <nav>
-t        <Link to="/">Home</Link>
-        <Link to="watch">Assistir</Link>
+        <Link to="/">Home</Link>
+        <Link to="/watch">Assistir</Link>
+        <Link to="/search">Pesquisar</Link>
       </nav>
     </header>
   );
