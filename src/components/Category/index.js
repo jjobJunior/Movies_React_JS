@@ -1,5 +1,5 @@
 import styles from "./Category.module.css";
-import videos from "../../json/videos.json"
+import videos from "../../json/videos.json";
 
 export const categories = [
   "Geografia",
@@ -12,7 +12,6 @@ export const categories = [
 export function filterCategory(id) {
   return videos.filter((video) => video.category === categories[id]);
 }
-
 
 function Category({ category, children }) {
   return (

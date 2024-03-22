@@ -1,0 +1,8 @@
+.slick-prev:before,
+.slick-next:before {
+  color: #1359f1;
+  font-size: 1.5rem;
+}
+
+.carousel {
+}

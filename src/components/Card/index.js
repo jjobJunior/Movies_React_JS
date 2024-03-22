@@ -3,7 +3,7 @@ import styles from "./Card.module.css";
 function Card({ id }) {
   return (
     <>
-      <section className={styles.Card}>
+      <section className={styles.card}>
         <Link to={`/watch/${id}`}>
           <img
             src={`https://img.youtube.com/vi/${id}/mqdefault.jpg `}

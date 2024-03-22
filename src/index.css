@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,11 +16,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/*Formatação da barra de rolagemk*/
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #222;
+}
 
-/*formatação geral dos cards*/
-.cards {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-  justify-content: center;
+body::-webkit-scrollbar-track {
+  background: #222;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #b71c1c;
+  border-radius: 20px;
+  border: 3px solid #222;
 }

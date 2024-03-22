@@ -2,6 +2,7 @@ import styles from "./SearchVideoList.module.css";
 import VideoList from "../../components/VideoList";
 import { useState } from "react";
 
+//Filtrando videos por categoria ou titulo
 function filterVideos(videos, searchText) {
   return videos.filter(
     (video) =>
