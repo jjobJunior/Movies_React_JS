@@ -13,7 +13,12 @@ function Favorites() {
       <Container>
         <section className={styles.favorites}>
           <h2>Meus favoritos</h2>
-          {<VideoList videos={favorite} emptyHeading="Sem videos em favoritos"/>}
+          {
+            <VideoList
+              videos={favorite}
+              emptyHeading="Sem videos em favoritos"
+            />
+          }
         </section>
       </Container>
       <Footer />
